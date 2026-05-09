@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  node-api:
+    build: .
+    container_name: node-devops-api
+    ports:
+      - "5001:5001"
+    environment:
+      - PORT=5001
