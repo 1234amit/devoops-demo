@@ -14,4 +14,8 @@ app.get("/demo", (req, res)=>{
   res.send("demo")
 })
 
+app.get("/demo-int", (req, res)=>{
+  res.send("demo-int")
+})
+
 module.exports = app;
