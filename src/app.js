@@ -10,4 +10,8 @@ app.get("/", (req, res) => {
   res.send("🚀 Node DevOps API Running Successfully!");
 });
 
+app.get("/demo", (req, res)=>{
+  res.send("demo")
+})
+
 module.exports = app;
